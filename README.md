@@ -120,9 +120,62 @@ Additionally, the following breakdown reflects the **Pareto principle** in terms
 - **Vendors** are primarily concentrated in the **North region**, especially in the city of **São Paulo**.
 
 
+## Diagnostic Analysis
+
+### Customers
+- In 2017, the number of customers grew by nearly **300%** in the first 8 months.
+- In 2018, customer growth declined by **-9%**, and the number of orders also dropped by **-9%**.
+- There is a **strong positive correlation (~1.00)** between the number of customers and the number of orders, indicating that a change in customer count directly impacts order volume.
+
+![image](https://github.com/user-attachments/assets/063eb33a-0ffb-4e36-b1a4-540ea81c68cd)
+
+
+### Sellers
+- In 2017, the number of sellers increased by **290%** in the first 8 months.
+- In 2018, seller growth declined by **-2%**, while the number of orders dropped by **-9%**.
+- In 2017, there was a **strong correlation (0.98)** between orders and sellers. However, in 2018, this correlation weakened to **0.43**, suggesting that the decline in orders was sharper than the decline in sellers.
+
+![image](https://github.com/user-attachments/assets/88d9e2f5-72f9-4f29-8258-ac1fcaf35eaf)
+
+
+### Unique Products
+- In 2017, the number of unique products purchased grew by **300%** in the first 8 months.
+- In 2018, the number of unique products purchased declined by **-8%**, while order volume decreased by **-9%**.
+- In 2017, there was a **strong correlation (0.98)** between unique products and orders. In 2018, this correlation weakened to **0.90**, indicating that fewer unique products were being sold as orders declined.
+
+![image](https://github.com/user-attachments/assets/479eb6d1-0876-4ec9-96a7-e32ea2eeb8a7)
+
+
+### Categories
+- In 2017, the number of product categories grew by **118%** in the first 8 months.
+- In 2018, the number of categories declined by **-14%**, while order volume decreased by **-9%**.
+- In 2017, there was a strong correlation between the number of categories and orders. However, in 2018, this correlation dropped significantly (**0.22**), suggesting that customers did not diversify their purchases across different categories as orders declined.
+
+![image](https://github.com/user-attachments/assets/64ffca8c-2e14-481e-985c-4a05712e79ac)
+
+
+### Average Price
+- In 2017, the average price grew by **22%** in the first 8 months.
+- In 2018, the average price grew by **17%**, even as the number of orders declined by **-9%**.
+- In 2017, there was a **strong correlation (0.99)** between unique products and average price. However, in 2018, this correlation dropped to **0.55**, indicating weaker alignment between product diversity and pricing.
+
+![image](https://github.com/user-attachments/assets/2c8011f4-a6e7-48a5-81ac-763e5db92a8e)
+
+
+### Correlation Table
+
+|        | 2017 Orders | 2018 Orders |
+|--------|------------|------------|
+| Customers  | 1.00  | 1.00  |
+| Sellers  | 1.00  | 0.43  |
+| Products  | 1.00  | 0.90  |
+| Categories  | 1.00  | 0.22  |
+| Avg Price  | 0.99  | 0.55  |
+
+
 ## Future Analysis
 
-Moving forward, we will use **diagnostic analysis** to uncover potential reasons behind trends and seasonal patterns. We will also conduct **prescriptive** analysis to suggest actionable steps for improving performance. Finally, a **predictive analysis** will help forecast future sales and order trends.
+Moving forward, we will use **prescriptive** analysis to suggest actionable steps for improving performance. Finally, a **predictive analysis** will help forecast future sales and order trends.
 
 ## Conclusion
 
